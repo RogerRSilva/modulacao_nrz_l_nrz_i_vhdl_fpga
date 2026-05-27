@@ -4,8 +4,8 @@ Trabalho da disciplina de **Comunicação de Dados e Sistemas Reconfiguráveis**
 
 ## Integrantes
 
-| Nome | RA | GitHub |
-|------|----|--------|
+| Nome | RA |
+|------|----|
 | Aline Cristina Ribeiro de Barros | 081230021 |
 | Luis Gustavo de Oliveira Carneiro | 081230029 |
 | Roger Rocha da Silva | 081230045 |
