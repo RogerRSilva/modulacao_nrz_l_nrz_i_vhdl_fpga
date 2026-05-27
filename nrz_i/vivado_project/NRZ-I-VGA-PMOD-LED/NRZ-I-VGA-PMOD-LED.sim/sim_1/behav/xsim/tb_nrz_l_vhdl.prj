@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Projeto_NRZ_L.srcs/sources_1/new/nrz_l_modulator.vhd" \
+"../../../../Projeto_NRZ_L.srcs/sim_1/new/tb_nrz_l.vhd" \
+
+# Do not sort compile order
+nosort

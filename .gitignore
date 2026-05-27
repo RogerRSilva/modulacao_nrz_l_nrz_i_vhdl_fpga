@@ -1,0 +1,25 @@
+# Vivado generated files — large build artifacts
+*.dcp
+*.bit
+*.pb
+*.vdi
+*.wdb
+*.rpt
+*.rpx
+*.jou
+*.log
+*.bat
+*.sh
+*.js
+
+# Vivado cache and run directories (optional — uncomment to exclude)
+# */NRZ-L-VGA-PMOD-LED.cache/
+# */NRZ-L-VGA-PMOD-LED.runs/
+# */NRZ-L-VGA-PMOD-LED.hw/
+# */NRZ-I-VGA-PMOD-LED.cache/
+# */NRZ-I-VGA-PMOD-LED.runs/
+# */NRZ-I-VGA-PMOD-LED.hw/
+
+# OS files
+.DS_Store
+Thumbs.db
