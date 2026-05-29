@@ -22,7 +22,7 @@ Implementação em VHDL de dois sistemas de modulação digital — Unipolar NRZ
 modulacao_vhdl/
 ├── nrz_l/           Projeto NRZ-L (auto-contido)
 ├── nrz_i/           Projeto NRZ-I (auto-contido)
-├── relatorio_final/ Relatório técnico e vídeo demo
+├── relatorio_final/ Relatório técnico
 ```
 
 ## Projetos
