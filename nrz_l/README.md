@@ -4,7 +4,9 @@ Implementação em VHDL da modulação Unipolar NRZ-L: o bit é representado pel
 
 # Vídeo Demonstrativo - Simulação
 
-- [Vídeo Simulação - nrz-l](./media/nrz-l-demo.mp4) - Vídeo demonstrativo do resultado da simulação do projeto nrz-l.
+<video src="./media/nrz-L-demo.mp4" controls width="100%"></video>
+
+Vídeo demonstrativo do resultado da simulação do projeto nrz-l.
 
 
 ## Estrutura desta pasta
