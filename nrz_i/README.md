@@ -2,6 +2,10 @@
 
 Implementação em VHDL da modulação Unipolar NRZ-I: o bit é representado pela **transição do pulso** no início do intervalo de bit (bit 1 = inverte o nível, bit 0 = mantém o nível anterior).
 
+# Vídeo Demonstrativo - Simulação
+
+- [Vídeo Simulação - nrz-i](./media/nrz-i-demo.mp4) - Vídeo demonstrativo do resultado da simulação do projeto nrz-i.
+
 ## Estrutura desta pasta
 
 ```

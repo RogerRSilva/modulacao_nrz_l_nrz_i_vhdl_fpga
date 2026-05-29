@@ -23,17 +23,22 @@ modulacao_vhdl/
 ├── nrz_l/           Projeto NRZ-L (auto-contido)
 ├── nrz_i/           Projeto NRZ-I (auto-contido)
 ├── relatorio_final/ Relatório técnico e vídeo demo
-└── scripts/         Scripts Python/Node que geram os documentos PDF e DOCX
 ```
 
 ## Projetos
 
-- [Modulação NRZ-L](./nrz_l/) — bit representado pelo nível do pulso
-- [Modulação NRZ-I](./nrz_i/) — bit representado pela transição do pulso
+- [Modulação NRZ-L](./nrz_l/) — bit representado pelo nível do pulso;
+- [Modulação NRZ-I](./nrz_i/) — bit representado pela transição do pulso;
 
 ## Relatório
 
-- [Relatório técnico final](./relatorio_final/relatorio.pdf) *(a adicionar)*
+- [Relatório técnico final](-./relatorio_final) - Relatório Técnico desenvolvido com base nos dois projetos citados e no processo de aprendizado do grupo.
+
+## Vídeos Demonstrativos
+
+- [Vídeo Simulação - nrz-i](./nrz_i/media/nrz-i-demo.mp4) - Vídeo demonstrativo do resultado da simulação do projeto nrz-i.
+- [Vídeo Simulação - nrz-l](./nrz_l/media/nrz-l-demo.mp4) - Vídeo demonstrativo do resultado da simulação do projeto nrz-l.
+
 
 ## Ferramentas
 

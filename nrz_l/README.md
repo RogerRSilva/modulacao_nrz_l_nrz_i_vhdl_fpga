@@ -2,6 +2,11 @@
 
 Implementação em VHDL da modulação Unipolar NRZ-L: o bit é representado pelo **nível do pulso** durante todo o intervalo de bit (bit 1 = nível alto, bit 0 = nível baixo).
 
+# Vídeo Demonstrativo - Simulação
+
+- [Vídeo Simulação - nrz-l](./media/nrz-l-demo.mp4) - Vídeo demonstrativo do resultado da simulação do projeto nrz-l.
+
+
 ## Estrutura desta pasta
 
 ```
