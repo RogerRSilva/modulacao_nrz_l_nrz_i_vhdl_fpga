@@ -1,16 +1,8 @@
 # Documentação — NRZ-I
 
-Esta pasta contém os documentos técnicos do projeto NRZ-I.
-
-## Conteúdo esperado
-
-| Arquivo                      | Descrição                                                                 |
-|------------------------------|---------------------------------------------------------------------------|
-| `tutorial_simulacao.pdf`     | Passo a passo de como simular o circuito no Vivado                        |
-| `tutorial_placa.pdf`         | Passo a passo de síntese, geração de bitstream e gravação na Basys 3      |
-| `documentacao_projeto.pdf`   | Diagrama de blocos, descrição das portas, decisões de projeto e análise   |
-| `midia/`                     | Prints da simulação, fotos da placa funcionando, capturas VGA/PMOD        |
-
-## Pendente
-
-Adicionar os PDFs acima e as mídias brutas na pasta `midia/` antes da entrega.
+| Arquivo                    | Descrição                                              |
+|----------------------------|--------------------------------------------------------|
+| `tutorial_simulacao.pdf`   | Passo a passo da simulação no Vivado                   |
+| `tutorial_placa.pdf`       | Passo a passo de síntese, bitstream e gravação na FPGA |
+| `documentacao_projeto.pdf` | Descrição técnica, diagrama de blocos e análise        |
+| `midia/`                   | Fotos da placa e capturas de tela para os documentos   |

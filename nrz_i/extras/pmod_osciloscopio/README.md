@@ -1,40 +1,20 @@
-# Extra — Saída pelo PMOD (Osciloscópio) — NRZ-I
+# Extra — Saída PMOD para Osciloscópio (NRZ-I)
 
-Disponibiliza o sinal modulado NRZ-I em um pino do conector **PMOD JA** da Basys 3, permitindo visualizar as transições características da modulação NRZ-I em um osciloscópio ou analisador lógico.
+O sinal modulado `tx_out` está disponível no **pino J1 do conector PMOD JA** da Basys 3. Na modulação NRZ-I, o osciloscópio mostrará transições apenas quando o bit for 1, mantendo o nível constante para bits 0.
 
-## Estrutura desta pasta
+## Conexão física
 
-```
-pmod_osciloscopio/
-├── src/          Código VHDL (mesmo do projeto principal — tx_out já mapeado ao PMOD)
-├── constraints/  Constraint com mapeamento do pino PMOD JA pino 1 (J1)
-└── docs/         Tutorial e capturas do osciloscópio
-```
+| Sinal  | Pino FPGA | Conector PMOD JA |
+|--------|-----------|------------------|
+| tx_out | J1        | Pino 1           |
+| GND    | —         | Pino 5           |
 
-## Equipamentos necessários
+## Como usar
 
-- Placa Basys 3
-- Osciloscópio ou Analog Discovery 3
-- Ponta de prova conectada ao **pino 1 do PMOD JA (J1)** e GND ao **pino 5**
+1. Gravar o bitstream (ver `../../docs/tutorial_placa.pdf`).
+2. Conectar a ponta de prova ao PMOD JA conforme a tabela.
+3. Comparar a forma de onda com o resultado do NRZ-L para observar a diferença de comportamento.
 
-## Mapeamento do pino
+## Fotos
 
-| Sinal   | Pino FPGA | Conector    |
-|---------|-----------|-------------|
-| tx_out  | J1        | PMOD JA p.1 |
-| GND     | —         | PMOD JA p.5 |
-
-## O que observar
-
-No NRZ-I, a forma de onda exibe **transições apenas quando o bit é 1** — ao encontrar um bit 0, o nível se mantém. Isso é claramente visível no osciloscópio comparado à forma de onda NRZ-L.
-
-## Como reproduzir
-
-1. Gravar o bitstream do projeto principal (`vivado_project/`) na placa
-2. Conectar a ponta de prova CH1 ao pino J1 do PMOD JA
-3. Conectar o GND da ponta ao pino 5 do mesmo conector
-4. Configurar os switches com a sequência de bits desejada
-5. Pressionar BTNC para iniciar a transmissão
-6. Capturar a forma de onda e comparar com o resultado NRZ-L
-
-Consulte o [tutorial do PMOD](./docs/tutorial_pmod.pdf) para o passo a passo completo.
+As fotos da conexão estão em `docs/midia/`.
