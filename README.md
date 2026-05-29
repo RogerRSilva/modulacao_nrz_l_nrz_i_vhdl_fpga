@@ -36,8 +36,8 @@ modulacao_vhdl/
 
 ## Vídeos Demonstrativos
 
-- [Vídeo Simulação - nrz-i](./nrz_i/media/nrz-i-demo.mp4) - Vídeo demonstrativo do resultado da simulação do projeto nrz-i.
-- [Vídeo Simulação - nrz-l](./nrz_l/media/nrz-l-demo.mp4) - Vídeo demonstrativo do resultado da simulação do projeto nrz-l.
+- [Vídeo Simulação - nrz-i](./nrz_i/midia/nrz-i-demo.mp4) - Vídeo demonstrativo do resultado da simulação do projeto nrz-i.
+- [Vídeo Simulação - nrz-l](./nrz_l/midia/nrz-l-demo.mp4) - Vídeo demonstrativo do resultado da simulação do projeto nrz-l.
 
 
 ## Ferramentas
